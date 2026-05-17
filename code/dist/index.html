@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A lightweight Canvas 2D recreation of the Google Antigravity particle hero animation."
+    />
+    <title>Google Antigravity</title>
+    <script type="module" crossorigin src="/assets/index-C1m0gyF0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cz5SeWbk.css">
+  </head>
+  <body>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#" aria-label="Google Antigravity home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="mark-stroke mark-blue"></span>
+          <span class="mark-stroke mark-green"></span>
+          <span class="mark-stroke mark-yellow"></span>
+          <span class="mark-stroke mark-red"></span>
+        </span>
+        <span>Google Antigravity</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#">Product</a>
+        <a href="#">Use Cases <span class="chevron" aria-hidden="true">⌄</span></a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+        <a href="#">Resources <span class="chevron" aria-hidden="true">⌄</span></a>
+      </nav>
+
+      <a class="header-download" href="#">
+        <span>Download</span>
+        <svg viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M8 2.25v7.1m0 0 2.7-2.7M8 9.35l-2.7-2.7M3.2 11.9v1.35h9.6V11.9" />
+        </svg>
+      </a>
+    </header>
+
+    <main class="hero" aria-label="Google Antigravity hero">
+      <div class="hero-kicker">
+        <span class="hero-mark" aria-hidden="true">
+          <span class="mark-stroke mark-blue"></span>
+          <span class="mark-stroke mark-green"></span>
+          <span class="mark-stroke mark-yellow"></span>
+          <span class="mark-stroke mark-red"></span>
+        </span>
+        <span>Google Antigravity</span>
+      </div>
+
+      <h1>
+        <span>Experience liftoff with the</span>
+        <span>next-gen agent platform</span>
+      </h1>
+
+      <div class="hero-actions">
+        <a class="primary-action" href="#">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M1.8 4.25 7.1 3.5v4.22H1.8V4.25Zm6-.86 6.4-.9v5.23H7.8V3.39ZM1.8 8.48h5.3v4.02l-5.3-.72v-3.3Zm6 0h6.4v5.01l-6.4-.88V8.48Z" />
+          </svg>
+          <span>Download for Windows</span>
+        </a>
+        <a class="secondary-action" href="#">Explore use cases</a>
+      </div>
+    </main>
+
+    <div class="debug-panel" id="debug-panel" hidden>
+      <span id="fps-readout">FPS 0</span>
+      <span id="count-readout">Particles 0</span>
+    </div>
+
+  </body>
+</html>
